@@ -103,6 +103,78 @@ fn pymi_pyo3(_py: Python, m: &PyModule) -> PyResult<()> {
 Other macros
 
 ```rust
+#[pyclass]
+struct User {
+    name: String,
+    age: u8,
+    status: bool,
+};
+
+#[pymodule]
+fn pymi_pyo3(_py: Python, m: &PyModule) -> PyResult<()> {
+    m.add_class::<User>()?;
+    Ok(())
+}
+```
+
+But there is [*a lot* more](https://pyo3.rs/v0.15.1/class) to it!
 
 
+---
+
+# ⚗️ Code Examples
+Multiple modules
+
+```rust{all|3}
+// src/lib.rs
+use pyo3::prelude::*;
+use osutil::*;
+
+#[pymodule]
+fn my_extension(py: Python, m: &PyModule) -> PyResult<()> {
+    m.add_function(wrap_pyfunction!(determine_current_os, m)?)?;
+    Ok(())
+}
+```
+
+```rust{all}
+// src/osutil.rs
+use pyo3::prelude::*;
+
+#[pyfunction]
+pub(crate) fn determine_current_os() -> String {
+    "linux".to_owned()
+}
+```
+
+
+---
+
+# ⚗️ Code Examples
+Multiple modules
+
+```rust{all|6}
+// src/lib.rs
+use pyo3::prelude::*;
+
+#[pymodule]
+fn my_extension(py: Python, m: &PyModule) -> PyResult<()> {
+    osutil::register(py, m)?;
+    Ok(())
+}
+```
+
+```rust{all|4-7}
+// src/osutil.rs
+use pyo3::prelude::*;
+
+pub(crate) fn register(py: Python, m: &PyModule) -> PyResult<()> {
+    m.add_function(wrap_pyfunction!(determine_current_os, m)?)?;
+    Ok(())
+}
+
+#[pyfunction]
+fn determine_current_os() -> String {
+    "linux".to_owned()
+}
 ```
