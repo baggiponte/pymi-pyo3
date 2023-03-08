@@ -51,7 +51,9 @@ blockquote {
 
 <v-clicks>
 
-## 😵‍💫 What the f🦀k?
+## 🎯 Goals
+
+## 😵‍💫 What the 🦀?!
 
 ## 🏗️ Building Python + Rust Packages 
 

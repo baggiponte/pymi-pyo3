@@ -1,4 +1,38 @@
 ---
+title: 🎯 Goals
+---
+
+# 🎯 Goals
+If your expectations are low enough, you won't be disappointed - Mark Twain
+
+<v-click>
+
+🐍 Pythonistas:
+</v-click>
+
+<v-clicks>
+
+* Know the most popular libraries used to create Rust + Python libraries.
+* Understand a Rust crate directory structure.
+* Know how to navigate a Rust + Python project (and, possibly, contribute to it).
+* Become acquainted with the Rust syntax.
+* Become envious of Rust amazing tooling.
+</v-clicks>
+
+<v-click>
+
+🦀 Rustaceans:
+</v-click>
+
+<v-clicks>
+
+* Know the most popular libraries used to create Rust + Python libraries.
+* Know how to navigate a Rust + Python project.
+* Get inspired on how to contribute to the Python ecosystem?
+* Don't flex too much.
+</v-clicks>
+
+---
 layout: two-cols
 ---
 
