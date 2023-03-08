@@ -32,7 +32,7 @@ blockquote {
 
   <img src="ferris.gif">
 
-    A bridge between Rust and Python
+    Use Rust in your Python Package
 </div>
 
 <div class="absolute bottom-5">
@@ -47,7 +47,29 @@ blockquote {
 
 ---
 
+# What we'll cover
+
+<v-clicks>
+
+## 😵‍💫 What the f🦀k?
+
+## 🏗️ Building Python + Rust Packages 
+
+## 🔎 Directory Tree
+
+## 🔗 References
+
+</v-clicks>
+
+---
+src: ./pages/01-introduction.md
+---
+
+---
+
 # 🔗 References
+
+<v-clicks>
 
 📚 [`maturin`](https://www.maturin.rs/) docs.
 
@@ -55,6 +77,7 @@ blockquote {
 
 📺 [`Build your Python Extension in Rust`](https://www.youtube.com/watch?v=FolV-xUD3Ko)
 
+</v-clicks>
 
 ---
 layout: intro
