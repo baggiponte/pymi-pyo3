@@ -68,6 +68,10 @@ src: ./pages/01-introduction.md
 ---
 
 ---
+src: ./pages/02-example.md
+---
+
+---
 
 # 🔗 References
 
