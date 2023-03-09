@@ -45,6 +45,7 @@ blockquote {
 
 </div>
 
+
 ---
 
 # What we'll cover
@@ -57,11 +58,16 @@ blockquote {
 
 ## 🏗️ Building Python + Rust Packages 
 
+## 📦 Installation and Setup
+
 ## 🔎 Directory Tree
+
+## ⚗️ Code Examples
 
 ## 🔗 References
 
 </v-clicks>
+
 
 ---
 src: ./pages/01-introduction.md
@@ -74,16 +80,14 @@ src: ./pages/02-example.md
 ---
 
 # 🔗 References
-
-<v-clicks>
+Basically, the docs 😅
 
 📚 [`maturin`](https://www.maturin.rs/) docs.
 
-🔗 [`PyO3`](https://pyo3.rs/) docs.
+📚 [`PyO3`](https://pyo3.rs/) docs.
 
 📺 [`Build your Python Extension in Rust`](https://www.youtube.com/watch?v=FolV-xUD3Ko)
 
-</v-clicks>
 
 ---
 layout: intro

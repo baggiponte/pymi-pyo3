@@ -18,6 +18,7 @@ An overview
 └── pyproject.toml      # <- python lib configs
 ```
 
+
 ---
 
 # 🔎 Directory Tree
@@ -44,6 +45,7 @@ crate-type = ["cdylib"]
 pyo3 = "0.18.1"
 ```
 
+
 ---
 
 # 🔎 Directory Tree
@@ -53,6 +55,7 @@ The Rust side: `Cargo.lock`
   * Not officially supported in Python: [PEP665](https://peps.python.org/pep-0665/) was rejected.
   * Lockfiles are implemented nonetheless: see `pdm.lock` and `poetry.lock`.
 
+
 ---
 
 # 🔎 Directory Tree
@@ -60,7 +63,6 @@ The Python side: `pyproject.toml`
 
 * `maturin` is the build-backend (see [here](https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html) and [here](https://chadsmith-software.medium.com/pep-517-and-518-in-plain-english-47208ca8b7a6)).
 * In the `maturin` table, we instruct it to use `pyo3`.
-
 
 ```toml {all|1-3|5-6}
 [build-system]
@@ -71,9 +73,10 @@ build-backend = "maturin"
 features = ["pyo3/extension-module"]
 ```
 
+
 ---
 
-# 🔎 Directory Tree
+# ⚗️ Code Examples
 Rust code: `src/lib.rs`
 
 ```rust {all|1|4-7|4|5|10-14|10|11|12|3,9}
@@ -89,7 +92,7 @@ fn sum_as_string(a: usize, b: usize) -> PyResult<String> {  //    that can be ca
 #[pymodule]                                                 // <- procedural macro: denotes a python module
 fn pymi_pyo3(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(sum_as_string, m)?)?;   // <- declarative macro
-    Ok(())
+    Ok(())                                                  // empty tuple
 }
 ```
 
@@ -99,10 +102,10 @@ fn pymi_pyo3(_py: Python, m: &PyModule) -> PyResult<()> {
 
 ---
 
-# 🔎 Directory Tree
-Other macros
+# ⚗️ Code Examples
+`pyclass` macro
 
-```rust
+```rust{all|10}
 #[pyclass]
 struct User {
     name: String,
