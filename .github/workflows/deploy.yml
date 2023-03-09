@@ -8,7 +8,7 @@ on:
       - slides.md
       - pages/**
       - components/**
-      - assets
+      - public
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -22,7 +22,7 @@ jobs:
       - name: Install slidev
         run: npm i -g @slidev/cli
       - name: Build
-        run: slidev build slides.md --base /talks/pymi/pymi-polars
+        run: slidev build slides.md --base /pymi-pyo3
       - name: Deploy pages
         uses: crazy-max/ghaction-github-pages@v3
         with:
