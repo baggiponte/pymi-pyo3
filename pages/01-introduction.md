@@ -52,7 +52,10 @@ Why don't you [rewrite it in Rust™️](https://unhandledexpression.com/rust/20
 
 ::right::
 
+<v-click>
+
 ![rust-meme-1](https://i.stack.imgur.com/pQoAq.png)
+</v-click>
 
 ---
 
