@@ -30,7 +30,7 @@ blockquote {
 
 <div class="absolute bottom-20">
 
-  <img src="ferris.gif">
+  <img src="/ferris.gif">
 
     Use Rust in your Python Package
 </div>
