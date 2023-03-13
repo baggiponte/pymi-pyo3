@@ -4,7 +4,7 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export",
     "deploy": "slidev build slides.md --base /pymi-pyo3"
   },
   "dependencies": {
