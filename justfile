@@ -1,5 +1,5 @@
 bump:
-    cz bump --check-consistency || exit
+    cz bump --check-consistency
     git push
     git push --tag
 
