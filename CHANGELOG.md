@@ -1,3 +1,9 @@
+## 1.1.3 (2023-03-13)
+
+### Fix
+
+- **package-lock**: fix misspecified name in lockfile
+
 ## 1.1.2 (2023-03-11)
 
 ### Fix
