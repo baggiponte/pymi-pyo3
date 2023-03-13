@@ -1,5 +1,5 @@
 {
-  "name": "slidev",
+  "name": "pymi-pyo3",
   "private": true,
   "scripts": {
     "build": "slidev build",
