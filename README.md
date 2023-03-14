@@ -1,5 +1,7 @@
 # 🦀 Get started with `PyO3`
 
+[![cookiecutter slidev](https://img.shields.io/badge/cookiecutter-slidev-D4AA00?logo=cookiecutter&logoColor=fff)](https://github.com/baggiponte/cookiecutter-slidev)
+
 Source code for the single page application (SPA) of the [`PyO3`](https://github.com/PyO3/pyo3) and [`maturin`](https://github.com/PyO3/maturin) tutorial I held @[Python Milano](https://github.com/PythonMilano).
 
 * 📽️ Live
