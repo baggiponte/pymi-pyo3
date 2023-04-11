@@ -8,7 +8,7 @@
     "deploy": "slidev build slides.md --base /pymi-pyo3"
   },
   "dependencies": {
-    "@slidev/cli": "^0.40.5",
+    "@slidev/cli": "^0.40.9",
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*"
   }
