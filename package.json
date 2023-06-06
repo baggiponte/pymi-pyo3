@@ -2,8 +2,9 @@
   "name": "pymi-pyo3",
   "private": true,
   "scripts": {
+    "preview": "slidev --open",
+    "format": "slidev format",
     "build": "slidev build",
-    "dev": "slidev --open",
     "export": "slidev export",
     "deploy": "slidev build slides.md --base /pymi-pyo3"
   },
