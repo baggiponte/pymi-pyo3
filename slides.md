@@ -4,30 +4,28 @@ layout: cover
 highlighter: shiki
 colorSchema: light
 favicon: https://www.rustacean.net/assets/cuddlyferris.svg
+title: Use Rust in your Python Package
 ---
 
 <div class="absolute top-10">
-
-    👤 Luca Baggi, ML Engineer @Futura
-    🐍 Python Milano 📆 09/03/2023
-</div>
-
-
-<div class="absolute bottom-20">
-
   <img src="/ferris.gif">
 
-    Use Rust in your Python Package
+  <h2>
+  Use Rust in your Python Package
+  </h2>
 </div>
 
-<div class="absolute bottom-5">
 
-<a href="github.com/baggiponte/pymi-cookiecutter">
+<div class="absolute bottom-10">
 
-<img height="25" width="25" align="left" style="margin-right:0.5em" src="https://cdn.simpleicons.org/github"> <u><i>source</i></u>
+    👤 Luca Baggi
+    💼 ML Engineer @Futura
+    🐍 Organiser @Python Milano
 
-</a>
+</div>
 
+<div class="absolute right-5 top-5">
+<img height="150" width="150"  src="/qr-github.svg">
 </div>
 
 
@@ -78,5 +76,18 @@ Basically, the docs 😅
 layout: intro
 ---
 
-# 🙏 Thank you for your time!
+# 🙋 Questions?
+
+
+---
+layout: intro
+---
+
+# 🙏 Thank you!
 ## 🎉 Special thanks to [Crafted Software](craftedsoftware.org) & [PyMi](http://milano.python.it/)!
+
+Please share your feedback! Just email me at lucabaggi [at] duck.com
+
+<div class="absolute right-5 top-5">
+<img height="150" width="150"  src="/qr-linkedin.svg">
+</div>
