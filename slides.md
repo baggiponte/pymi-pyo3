@@ -6,21 +6,6 @@ colorSchema: light
 favicon: https://www.rustacean.net/assets/cuddlyferris.svg
 ---
 
-<style>
-h1 {
-  font-weight: 600 !important;
-}
-
-h2 {
-  font-weight: 450 !important;
-  line-height: 1.8 !important;
-}
-
-blockquote {
-  font-size: 20 !important;
-}
-</style>
-
 <div class="absolute top-10">
 
     👤 Luca Baggi, ML Engineer @Futura
