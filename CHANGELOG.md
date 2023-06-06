@@ -1,3 +1,21 @@
+## 1.3.0 (2023-06-06)
+
+### Feat
+
+- update first and last slide
+- **slidev**: update dependencies
+
+### Fix
+
+- update copy in last slide
+- **npm**: revert commit and write correct package name
+
+### Refactor
+
+- add assest to /public
+- move tags to style.css
+- remove unused component dir
+
 ## 1.2.0 (2023-03-13)
 
 ### Feat
